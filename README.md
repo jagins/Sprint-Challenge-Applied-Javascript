@@ -30,13 +30,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+The data object model is a virtual represenation of html elements of a webpage. The DOM gives us the power to create html elements
+or components in javascript and render them to the page without having to touch the current html file, which lets us create a more dynamic,
+and interactive web application.
+
+
 2. What is an event?
+
+An event is something the user did on the webpage, whether it's a hover, click, double click etc. Through this event we can even see
+what they were interacting with with event.target
 
 3. What is an event listener?
 
+An event listener is attached to an html element within javascript and it listens for an event to happen. If the event triggers
+then we can specify what will happen in the event listener code block.
+
+
 4. Why would we convert a NodeList into an Array?
 
+
+We convert a NodeList into an Array to make use of the higher order functions, which also makes the data easier to manipulate.
+If we didn't convert the NodeList then we wouldn't be able to use functions like .forEach, .map, etc.
+
 5. What is a component?
+
+A component is made up of HMTL, CSS, or JS which is then pieced together to be able to resue. For example, if you wanted to
+create 50 buttons and display it to the page you could create a createButton() which then would put all the HTML elements together in JS
+and it would return a button component and can be appended to an HTML element and displayed on the page later.
 
 ### Git Set up
 
